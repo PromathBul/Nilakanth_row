@@ -14,5 +14,5 @@ def Calculate_pi (accuracy):
     return round(pi, accuracy)
 
 accuracy = int(input('Введите количество значащих цифр после запятой, которые нужно определить в числе пи: '))
-pi = Calculate_pi(accuracy)
+pi = calculate_pi(accuracy)
 print(f'Число пи с точностью до {accuracy}-го знака равно {pi}')
