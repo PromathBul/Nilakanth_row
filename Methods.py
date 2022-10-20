@@ -1,4 +1,6 @@
-
+def enter (message):
+    num = int(input(message))
+    return num
 
 def calculate_pi (accuracy):
     d = 10 ** -accuracy
