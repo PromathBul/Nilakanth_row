@@ -13,4 +13,4 @@ def calculate_pi (accuracy):
             value *= -1
         pi += value
         significant += 2
-    return round(pi, accuracy)
+    return int(pi * 10 ** accuracy) / 10 ** accuracy
